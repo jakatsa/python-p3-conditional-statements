@@ -54,7 +54,7 @@ def calculator(operation, num1, num2):
         '/': lambda x, y: x / y
     }
 
-    # Get the corresponding function for the operation, or None if invalid
+    # Get the corresponding function for the operations, or None if invalid
     func = operations.get(operation)
 
     if func:
